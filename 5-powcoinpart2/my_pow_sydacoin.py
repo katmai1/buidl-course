@@ -278,7 +278,7 @@ def mine_genesis_block():
     unmined_block = Block(txns=[], prev_id=None, nonce=0)
     mined_block = mine_block(unmined_block)
     NODE.blocks.append(mined_block)
-    # TODO update utxo_set, award coinbase, etc
+    # TODO: update utxo_set, award coinbase, etc
 
 
 ##############
