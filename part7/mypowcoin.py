@@ -13,7 +13,6 @@ Options:
 """
 
 import uuid, socketserver, socket, sys, argparse, time, os, logging, threading, hashlib, random, re, pickle
-
 from docopt import docopt
 from copy import deepcopy
 from ecdsa import SigningKey, SECP256k1
